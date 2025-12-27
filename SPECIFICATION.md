@@ -6,7 +6,7 @@ Version: 1
 
 A content index consists of multiple Nostr events with:
 
--   Event kind `30078`
+-   Event kind `30078` [NIP-78](https://github.com/nostr-protocol/nips/blob/master/78.md)
 -   A `t` tag with a value of `nci:<primary-key>`
 -   A required metadata event that contains index metadata
 -   Zero or more content events that contain the actual index items
